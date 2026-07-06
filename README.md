@@ -10,13 +10,13 @@ Aplicación Android que muestra un listado de los 9 tipos de Pikmin en una cuadr
 
 ### Tema Claro
 
-|          Pantalla Principal          |        Pantalla de Detalle         |        Pantalla de Ajustes         |        Diálogo "Acerca de"         |       Pantalla Preferencias"       |
+|          Pantalla Principal          |        Pantalla de Detalle         |        Pantalla de Ajustes         |        Diálogo "Acerca de"         |          Pantalla Ajustes          |
 |:------------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|
 | ![Principal](Images/screenshot1.jpg) | ![Detalle](Images/screenshot2.jpg) | ![Ajustes](Images/screenshot3.jpg) | ![Dialogo](Images/screenshot4.jpg) | ![Ajustes](Images/screenshot5.jpg) |
 
 ### Tema Oscuro
 
-|          Pantalla Principal          |        Pantalla de Detalle         |        Pantalla de Ajustes         |        Diálogo "Acerca de"         |       Pantalla Preferencias"        |
+|          Pantalla Principal          |        Pantalla de Detalle         |        Pantalla de Ajustes         |        Diálogo "Acerca de"         |          Pantalla Ajustes           |
 |:------------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:-----------------------------------:|
 | ![Principal](Images/screenshot6.jpg) | ![Detalle](Images/screenshot7.jpg) | ![Ajustes](Images/screenshot8.jpg) | ![Dialogo](Images/screenshot9.jpg) | ![Ajustes](Images/screenshot10.jpg) |
 
