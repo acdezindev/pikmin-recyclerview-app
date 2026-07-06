@@ -63,10 +63,7 @@ Aplicación Android que muestra un listado de los 9 tipos de Pikmin en una cuadr
 ## 👨‍💻 Autor
 
 **Abraham C**  
-[GitHub](https://github.com/acdezindev) | [LinkedIn](https://www.linkedin.com/in/
-AbrahamCdev
-)
+[GitHub](https://github.com/acdezindev) | [LinkedIn](https://www.linkedin.com/in/AbrahamCdev)
 
----
 
 
