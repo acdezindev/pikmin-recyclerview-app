@@ -1,0 +1,11 @@
+<resources>
+    <!-- Tema principal   Theme.Material3.DayNight.NoActionBar soporta modo noche y dia -->
+    <!--  define como se ve la app en general (tema base y tema final). -->
+    <!-- Este tema ya implementa el modo noche y dia es decir hereda de DayNight-->
+    <style name="Base.Theme.EjemploRecyclerViewPikmin" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- cosas comunes -->
+    </style>
+
+    <!-- Aqui podria ir el diseno de lo que NO cambia sea modo oscuro o modo claro -->
+    <style name="Theme.EjemploRecyclerViewPikmin" parent="Base.Theme.EjemploRecyclerViewPikmin" />
+</resources>

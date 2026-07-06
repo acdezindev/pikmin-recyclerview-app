@@ -1,0 +1,126 @@
+<resources>
+
+    <string name="app_name">Pikmin</string>
+
+    <string name="titulo_toolbar">Pikmin</string>
+    <string name="acerca_de">About</string>
+    <string name="ajustes">Settings</string>
+
+    <!-- String para el titulo de toolbar en ajustes-->
+    <string name="toolbar_ajustes">Settings</string>
+
+    <!-- String para el titulo de toolbar en detalles-->
+    <string name="toolbar_pantalla_detalles">Details Pikmin</string>
+
+    <string name="nombre_pikmin">Name</string>
+    <string name="pikmin_rojo">Red Pikmin</string>
+    <string name="pikmin_amarillo">Yellow Pikmin</string>
+    <string name="pikmin_azul">Blue Pikmin</string>
+    <string name="pikmin_blanco">White Pikmin</string>
+    <string name="pikmin_morado">Purple Pikmin</string>
+    <string name="pikmin_petreo">Rock Pikmin</string>
+    <string name="pikmin_alado">Winged Pikmin</string>
+    <string name="pikmin_gelido_ice">Ice Pikmin</string>
+    <string name="pikmin_luminoso_glow">Glow Pikmin</string>
+    <string name="snackbar"> ¡Welcome to the world of Pikmin!</string>
+    <!-- Toast ajustes -->
+    <string name="toast_ajustes">You have pressed</string>
+    <!-- Toast pantalla detalles -->
+    <string name="toast_detalles">You have selected the Pikmin:</string>
+    <!-- String para el cuadro de dialogo acerca de y version  -->
+    <!-- String para el cuadro de dialogo acerca de y version  -->
+    <string name="acerca_de_dialogo">About...</string>
+    <string name="app_desarrollada_dialogo">Application developed by [Abraham C]. Version 1.0 >> Lie.. version 30.1 at least.. and I sometimes watch Pikmin</string>
+    <string name="salir_dialogo">Accept</string>
+    <!-- String toast modo oscuro pantalla ajustes -->
+    <string name="modo_activado"> Dark mode on</string>
+    <string name="modo_desactivado"> Dark mode off</string>
+
+    <!-- String toast cambio idioma  pantalla ajustes -->
+    <string name="idioma_es">Languaje Spanish</string>
+    <string name="idioma_en">Languaje English </string>
+
+    <string name="titulo_descripcion_detalle">Detail</string>
+    <string name="titulo_habilidad_detalle">Abilities</string>
+    <string name="descripcion_detalle">Description details</string>
+    <string name="habilidades_detalle">Abilities details</string>
+    <string name="pikmin_rojo_detalle">
+        Red Pikmin are characterized by their scarlet bodies and pointed noses.
+        In addition to the plant-like traits of their species, they have animal characteristics
+        such as a strong fighting spirit and a high degree of curiosity.
+        They have great adaptability, as they are not only resistant to extreme heat,
+        but also inhabit a wide variety of ecosystems.
+    </string>
+    <string name="pikmin_rojo_habilidades">
+        Fire immunity, high offensive capability.
+    </string>
+    <string name="pikmin_amarillo_detalle">
+        They are characterized by their yellow bodies and a pair of ear-like lamellae that
+        allow them to dig quickly and reach great heights when thrown. Another distinguishing trait
+        is their bodies ability to conduct electricity. They are not only resistant to it,
+        but seem to enjoy it.
+    </string>
+    <string name="pikmin_amarillo_habilidades">
+        Electricity resistance, High flight ability, Excellent diggers
+    </string>
+    <string name="pikmin_azul_detalle">
+        They are characterized by their blue bodies and inscrutable facial expressions. Unlike most
+        other rambulatory species, which cannot breathe underwater, Blue Pikmin have gills
+        that resemble a mouth. These gills allow them to survive in both aquatic and terrestrial ecosystems.
+    </string>
+    <string name="pikmin_azul_habilidades">
+        Underwater breathing, Excellent swimmers
+    </string>
+    <string name="pikmin_blanco_detalle">
+        They are characterized by their white bodies and red eyes. Their small bodies secrete a potent venom,
+        which makes them immune to certain poisons. White Pikmin seeds can be obtained
+        through ivory bouncing sprouts that only grow in underground regions.
+    </string>
+    <string name="pikmin_blanco_habilidades">
+        Poison immunity, Venomous bodies, Speed
+    </string>
+    <string name="pikmin_morado_detalle">
+        They are characterized by their robust and strong bodies. They are bigger and stronger than the rest of their species.
+        They weigh 10 times more than any other Pikmin. Like White Pikmin, they can only be born from
+        bouncing sprouts found exclusively in underground regions, making them a unique species.
+    </string>
+    <string name="pikmin_morado_habilidades">
+        Weight, Great carrying capacity, Born underground
+    </string>
+    <string name="pikmin_petreo_detalle">
+        They are a parasitic type of Pikmin called "Ermikmin" that takes a stone as a host, and similar to a seed
+        rooting through rock cracks, the Pikmin’s roots penetrate the stone.
+    </string>
+    <string name="pikmin_petreo_habilidades">
+        Unbreakable, Sturdy, Non-adhesive
+    </string>
+    <string name="pikmin_alado_detalle">
+        They are characterized by their pink bodies and prominent blue eyes that look like lenses.
+        They move gracefully through the air with their wings, but their attacks do not deal much damage.
+    </string>
+    <string name="pikmin_alado_habilidades">
+        Flight ability, Weak attacks
+    </string>
+    <string name="pikmin_gelido_detalle">
+        They belong to a parasitic subtype of Pikmin called "Ermikmin". They obtain and maintain their bodies
+        through a process that constantly generates new ice from ambient moisture using their low-temperature core.
+    </string>
+    <string name="pikmin_gelido_habilidades">
+        Freezing properties, Cold immunity
+    </string>
+    <string name="pikmin_luminoso_detalle">
+        They are characterized by their radiant green bodies. When the leaf on their head blooms,
+        it takes the shape of a star. They have several traits that distinguish them from other Pikmin types,
+        one being that instead of sprouting from onions, they sprout from lumilomas which only appear at night and in underground regions.
+    </string>
+    <string name="pikmin_luminoso_habilidades">
+        No feet and float in the air. Immune to many elements that affect other Pikmin types,
+        Active at night and underground, Unusual behavior.
+    </string>
+
+    <!-- Strings for activity_main_ajustes layout -->
+    <string name="modo">Theme</string>
+    <string name="idioma">Language</string>
+    <string name="descripcion_dia">Day Mode</string>
+    <string name="descripcion_noche">Night Mode</string>
+</resources>

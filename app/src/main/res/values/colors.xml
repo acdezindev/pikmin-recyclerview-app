@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores Modo Claro -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#C9C9C9</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#0013f3</color>
+    <color name="graysoft">#E7E7E9</color>
+
+    <!-- Colores Modo Claro cardview -->
+    <color name="texto_nombre_cardview">#000000</color>
+    <color name="texto_nombre_detalle">#000000</color>
+
+    <!-- Colores dia cardview detalles-->
+    <color name="texto_detalle">#000000</color>
+
+    <!-- color dia  fondos item cardview detalles  -->
+    <color name="color_fondo_item">#f1faeb</color>
+
+    <!-- Colores dia pantalla dialogo -->
+    <color name="fondo_dialogo">#ffffff</color>
+    <color name="texto_dialogo">#000000</color>
+
+    <!-- Colores dia menu toolbar ajustes-->
+    <color name="fondo_menu_toolbar">#f3edf8</color>
+    <color name="texto_menu_toolbar">#000000</color>
+
+
+    <!-- Colores dia textview pantalla  ajustes-->
+    <color name="fondo_ajustes">#ffffff</color>
+    <color name="texto_ajustes">#000000</color>
+
+
+    <!-- Colores dia fondo temas lenguaje  pantalla  ajustes-->
+    <color name="fondo_temas_lenguaje">#ffffff</color>
+
+    <!-- toolbar  -->
+    <color name="color_toolbar">#bce958</color>
+    <color name="texto_toolbar">#000000</color>
+
+    <!-- color dia fondos pantallas  -->
+    <color name="color_fondo">#dfe9c8</color>
+
+    <!-- color fondo splash-->
+    <color name="fondo_splash">#f2edd8</color>
+
+
+</resources>

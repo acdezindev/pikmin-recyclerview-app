@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ESTO SOLO SE APLICA A LOS VIEW individuales ( componentes textView, CardView , LinearLayout-->
+
+    <!-- Estilo para el toolbar de todos los xml-->
+    <style name="miToolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/color_toolbar</item>
+        <item name="android:elevation">4dp</item>
+        <item name="titleTextColor">@color/texto_toolbar</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+
+    <!-- Stylo para el menu de la toolbar ajustes  -->
+    <style name="mi_menu_toolbar" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <!-- Fondo del menu -->
+        <item name="android:background">@color/fondo_menu_toolbar</item>
+        <!-- Color del texto de los items -->
+        <item name="android:textColor">@color/texto_menu_toolbar</item>
+    </style>
+
+
+    <!-- Estilo para el activity_main.xml-->
+    <style name="color_fondo_main" parent="Base.Theme.EjemploRecyclerViewPikmin">
+        <item name="android:background">@color/color_fondo</item>
+    </style>
+
+
+    <!-- Estilo para la imagen del cardview de item_pikmin_cardView_bis.xml -->
+    <style name="cardview_item_imagen">
+        <item name="android:background">@color/color_fondo_item</item>
+        <item name="android:textColor">@color/black <!-- negro -->
+        </item>
+    </style>
+
+    <!-- Estilo para el texto cardview de item_pikmin_cardView_bis.xml -->
+    <style name="cardview_item_texto">
+        <item name="android:textColor">@color/texto_nombre_cardview</item> <!-- negro -->
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item> <!-- negrita -->
+        <item name="android:fontFamily">casual
+        </item>
+    </style>
+
+    <!-- Estilos para la pantalla en detalle de cada pikmin activity_detalle_pikmin.xml  -->
+    <style name="estilo_nombre_pikmin_detalle">
+        <item name="android:textColor">@color/texto_detalle</item>
+        <item name="android:background">@color/color_fondo_item</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">casual
+        </item>
+
+    </style>
+
+    <!-- Estilo para los titulos  del textView del activity_detalle_pikmin.xml  -->
+    <style name="estilo_titulo">
+        <item name="android:textColor">@color/texto_nombre_detalle</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:fontFamily">sans-serif-black
+        </item>
+
+    </style>
+
+    <!-- Estilo para el contenido  del textView del activity_detalle_pikmin.xml  -->
+    <style name="estilo_frase">
+        <item name="android:textColor">@color/texto_ajustes</item>
+        <item name="android:background">@color/color_fondo_item</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal|bold</item>
+        <item name="android:fontFamily">casual
+
+        </item>
+
+    </style>
+
+
+    <!-- Estilo para la pantalla  dialogo -->
+    <style name="mi_dialogo" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:background">@color/fondo_dialogo</item>
+        <item name="android:textColor">@color/texto_dialogo</item>
+    </style>
+
+
+    <!-- Estilo para el fondo activity_main_ajustes.xml  -->
+    <style name="pantalla_ajustes">
+        <item name="android:background">@color/color_fondo</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Estilo para el texto activity_main_ajustes.xml  -->
+    <style name="texto_ajustes">
+        <item name="android:background">@color/fondo_ajustes</item>
+        <item name="android:textColor">@color/texto_ajustes</item>
+    </style>
+
+    <!-- Estilo para el fondo de Temas y Lenguaje activity_main_ajustes.xml  -->
+    <style name="temas_lenguaje">
+        <item name="android:background">@color/fondo_temas_lenguaje</item>
+    </style>
+
+
+</resources>

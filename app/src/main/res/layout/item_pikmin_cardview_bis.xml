@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DEFINIMOS COMO SE VERA CADA ITEM ( Diseno del pikmin de la pantalla principal )-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    style="@style/color_fondo_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="8dp"
+    >
+
+    <!--Contenedor 2: para la imagen -->
+    <LinearLayout
+        android:id="@+id/contenedorImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="8dp"
+            android:layout_gravity="center"
+            card_view:cardElevation="4dp">
+
+            <ImageView
+                style="@style/cardview_item_imagen"
+                android:id="@+id/ivimagenItem"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/redpikmin"
+                android:padding="8dp"
+
+                />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <!--Contenedor 3: para el texto -->
+    <LinearLayout
+
+        android:id="@+id/contenedorTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="10dp"
+            card_view:cardElevation="10dp"
+            android:padding="8dp">
+
+            <TextView
+                style="@style/cardview_item_texto"
+                android:id="@+id/idpikmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre_pikmin"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

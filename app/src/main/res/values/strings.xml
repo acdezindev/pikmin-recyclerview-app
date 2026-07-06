@@ -1,0 +1,128 @@
+<resources>
+
+    <!--AQUI CREAMOS TODOS LOS NOMBRES QUE VAMOS A MOSTRAR POR LA PANTALLA Y LOS "COGEREMOS" en el activity.xml ( pantalla diseno )  CON "@string/pimkinAmarillo" -->
+
+    <string name="app_name">Pikmin</string>
+    <!-- String para el menu toolbar menu.xml-->
+    <string name="titulo_toolbar">Pikmin</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="ajustes">Ajustes</string>
+    <!-- String para el titulo de toolbar en ajustes-->
+    <string name="toolbar_ajustes">Ajustes</string>
+    <!-- String para el titulo de toolbar en detalles-->
+    <string name="toolbar_pantalla_detalles">Detalles Pikmin</string>
+    <!-- String para el layout item_pikmin_cardview_bis-->
+    <string name="nombre_pikmin">Nombre</string>
+    <string name="pikmin_rojo">Pikmin Rojo</string>
+    <string name="pikmin_amarillo">Pikmin Amarillo</string>
+    <string name="pikmin_azul">Pikmin Azul</string>
+    <string name="pikmin_blanco">Pikmin Blanco</string>
+    <string name="pikmin_morado">Pikmin Morado</string>
+    <string name="pikmin_petreo">Pikmin Petreo</string>
+    <string name="pikmin_alado">Pikmin Alado</string>
+    <string name="pikmin_gelido_ice">Pikmin Gelido</string>
+    <string name="pikmin_luminoso_glow">Pikmin Luminoso</string>
+    <string name="snackbar">¡Bienvenidos al mundo Pikmin!</string>
+    <!-- Toast ajustes -->
+    <string name="toast_ajustes">Has pulsado</string>
+    <!-- String para el cuadro de dialogo acerca de y version  -->
+    <string name="acerca_de_dialogo">Acerca de...</string>
+    <string name="app_desarrollada_dialogo">Aplicacion desarrollada por [Abraham C]. Version 1.0 !!!</string>
+    <string name="salir_dialogo"> “Aceptar”</string>
+    <!-- String toast modo oscuro pantalla ajustes -->
+    <string name="modo_activado"> Modo Oscuro Activado</string>
+    <string name="modo_desactivado"> Modo Oscuro Desactivado</string>
+
+    <!-- String toast cambio idioma  pantalla ajustes -->
+    <string name="idioma_es">Idioma Español</string>
+    <string name="idioma_en">Idioma Ingles </string>
+
+    <!-- Toast pantalla detalles -->
+    <string name="toast_detalles"> “Has seleccionado el Pikmin:”</string>
+    <string name="titulo_descripcion_detalle">Descripcion</string>
+    <string name="titulo_habilidad_detalle">Habilidades</string>
+    <string name="descripcion_detalle">Detalles descripcion</string>
+    <string name="habilidades_detalle">Detalles habilidades  </string>
+    <string name="pikmin_rojo_detalle">
+            Los Pikmin rojos se caracterizan por su cuerpo de color escarlata y nariz puntiaguda.
+            Además de los rasgos vegetales propios de su especie, presentan características animales
+            como un fuerte espíritu combativo y un grado elevado de curiosidad.
+            Tienen una gran capacidad de adaptación, pues no solo son resistentes al calor extremo,
+            sino que también suelen habitar en una gran variedad de ecosistemas.
+    </string>
+    <string name="pikmin_rojo_habilidades">
+    Inmunidad al fuego, alta capacidad ofensiva.
+    </string>
+    <string name="pikmin_amarillo_detalle">
+        Se caracteriza por su cuerpo de color amarillo y un par de lamelas semejantes a orejas que les
+        permiten cavar con rapidez y alcanzar grandes alturas al ser lanzados. Otro rasgo que los distingue
+        es la capacidad de sus cuerpos de conducir la electricidad. Además no solo son resistentes a ella,
+        sino que parecen disfrutarla.
+    </string>
+    <string name="pikmin_amarillo_habilidades">
+            Resistencia a la electricidad, Capacidad de vuelo elevado, Excelentes cavadores
+    </string>
+    <string name="pikmin_azul_detalle">
+        Se caracterizan por su cuerpo de color azul y expresión facial indescifrable. A diferencia de la mayoría
+        de las especies radiambulares, que no pueden respirar bajo el agua, los Pikmin azules cuentan con branquias
+        que se confunden con una boca. Esas branquias les permiten sobrevivir en ecosistemas acuáticos y terrestres.
+    </string>
+    <string name="pikmin_azul_habilidades">
+            Respiración bajo el agua, Excelentes nadadores,
+    </string>
+    <string name="pikmin_blanco_detalle">
+            Se caracterizan por su cuerpo de color blanco y ojos rojos. Sus pequeños cuerpos segregan un potente veneno,
+            lo que a su vez los hace inmunes a ciertos venenos. Las semillas de Pikmin blancos se pueden obtener por medio
+            de brotes rebotadores marfil que solo crecen en regiones subterráneas.
+    </string>
+    <string name="pikmin_blanco_habilidades">
+            Inmunidad al veneno, Cuerpos venenosos, Velocidad
+    </string>
+    <string name="pikmin_morado_detalle">
+            Se caracterizan por su cuerpo robusto y resistente. Son más fuertes y grandes que el resto de su especie.
+            Pesan 10 veces más que cualquier otro Pikmin. Al igual que los Pikmin blancos, solo pueden nacer a partir
+            de brotes rebotadores que solo se encuentran en regiones subterráneas, por lo que son considerados una especie única.
+    </string>
+    <string name="pikmin_morado_habilidades">
+           Peso, Gran capacidad de carga, Nacen en el subsuelo
+    </string>
+    <string name="pikmin_petreo_detalle">
+            Son un tipo de Pikmin parasitario llamado "Ermikmin" que toma como huésped una piedra y, de manera similar a una semilla
+            que echa raíces a través de las grietas de una roca, las raíces del Pikmin penetran la piedra.
+    </string>
+    <string name="pikmin_petreo_habilidades">
+            Inquebrantables, Robustos, No adherentes
+    </string>
+    <string name="pikmin_alado_detalle">
+        Se caracterizan por su cuerpo de color rosa y prominentes ojos azules que parecen lentes.
+        Se desplazan ágilmente por los aires con sus alas, pero sus ataques no causan mucho daño.
+    </string>
+    <string name="pikmin_alado_habilidades">
+            Capacidad de vuelo, Ataques débiles
+    </string>
+    <string name="pikmin_gelido_detalle">
+            Pertenecen a un subtipo parasitario de Pikmin llamado "Ermikmin". Obtienen y mantienen su cuerpo a través
+            de un proceso que utiliza su núcleo de baja temperatura para generar constantemente hielo nuevo de la humedad del ambiente.
+    </string>
+    <string name="pikmin_gelido_habilidades">
+            Propiedades de congelamiento, Inmunidad al frío
+    </string>
+    <string name="pikmin_luminoso_detalle">
+            Se caracterizan por su cuerpo de color verde radiante. Al florecer la hoja que tienen en la cabeza,
+            esta toma una forma de estrella. Tienen varias características que los distinguen de los otros tipos de Pikmin,
+            una de ellas es que en vez de brotar de cebollas brotan de lumilomas que solo se encuentran en la noche y en regiones subterráneas.
+    </string>
+    <string name="pikmin_luminoso_habilidades">
+            No tienen pies y flotan en el aire. Son inmunes a muchos elementos que afectan a otros tipos de Pikmin,
+            Actividad nocturna y en regiones subterráneas, Comportamiento inusual.
+
+    </string>
+
+
+    <!-- String para el layout activity_main_ajustes-->
+    <string name="modo">Tema</string>
+    <string name="idioma">Lenguaje</string>
+    <string name="descripcion_dia">Modo Dia</string>
+    <string name="descripcion_noche">Modo Noche</string>
+
+</resources>

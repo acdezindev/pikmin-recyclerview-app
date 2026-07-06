@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--  Envolvemos -->
+    <com.google.android.material.appbar.AppBarLayout
+        style="@style/color_fondo_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_detalle"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/color_toolbar"
+            android:elevation="4dp"
+            android:title="@string/nombre_pikmin" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Contenido principal-->
+    <androidx.core.widget.NestedScrollView
+        style="@style/color_fondo_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- Contenedor 2: el de la imagen -->
+            <LinearLayout
+                android:id="@+id/id_contenedor_imagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    card_view:cardCornerRadius="10dp"
+                    card_view:cardElevation="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp">
+
+                    <ImageView
+                        android:id="@+id/ivimagen_detalle"
+                        android:contentDescription="Un Pikmin"
+                        style="@style/cardview_item_imagen"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/redpikmin" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!-- Contenedor 3: el que tiene el nombre-->
+            <LinearLayout
+                android:id="@+id/id_contenedor_tipo_detalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="1dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    card_view:cardCornerRadius="8dp"
+                    android:layout_gravity="center"
+                    card_view:cardElevation="4dp">
+                <TextView
+                    android:id="@+id/id_pikmin_detalle"
+                    style="@style/estilo_nombre_pikmin_detalle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nombre_pikmin"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center_horizontal" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!-- Contenedor 4: El del detalle-->
+            <LinearLayout
+                android:id="@+id/id_contenedor_texto_detalles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    style="@style/estilo_titulo"
+                    android:id="@+id/tv_titulo_descripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo_descripcion_detalle"
+                    android:padding="8dp" />
+
+                <TextView
+                    style="@style/estilo_frase"
+                    android:id="@+id/tv_descripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/descripcion_detalle"
+                    android:padding="8dp" />
+
+                <TextView
+                    style="@style/estilo_titulo"
+                    android:id="@+id/tv_titulo_habilidades"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo_habilidad_detalle"
+                    android:padding="8dp" />
+
+                <TextView
+                    style="@style/estilo_frase"
+                    android:id="@+id/habilidades"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/habilidades_detalle"
+                    android:padding="8dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

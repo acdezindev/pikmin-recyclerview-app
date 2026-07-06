@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/acercade"
+        android:title="@string/acerca_de"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ajustes"
+        android:title="@string/ajustes"
+        app:showAsAction="never">
+
+
+
+<!--MENU DENTRO DE MENU-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/action_night_mode"-->
+<!--                android:title="@string/menu_night_mode" />-->
+<!--        </menu>-->
+
+    </item>
+
+</menu>
+
