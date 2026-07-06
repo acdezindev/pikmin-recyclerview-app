@@ -4,18 +4,15 @@
 Aplicación Android que muestra un listado de los 9 tipos de Pikmin en una cuadrícula, con pantalla de detalle, ajustes de tema e idioma, y soporte multidioma.
 
 ##  Capturas de pantalla
-![screenshot01.jpg](Images/screenshot01.jpg)
-![screenshot02.jpg](Images/screenshot02.jpg)
-![screenshot03.jpg](Images/screenshot03.jpg)
-![screenshot04.jpg](Images/screenshot04.jpg)
-![screenshot05.jpg](Images/screenshot05.jpg)
-![screenshot06.jpg](Images/screenshot06.jpg)
-![screenshot07.jpg](Images/screenshot07.jpg)
-![screenshot08.jpg](Images/screenshot08.jpg)
-![screenshot09.jpg](Images/screenshot09.jpg)
-![screenshot10.jpg](Images/screenshot10.jpg)
+### Tema Claro
+|          Pantalla Principal          |        Pantalla de Detalle         |        Pantalla de Ajustes         |        Diálogo "Acerca de"         |          Pantall Ajustes"          |
+|:------------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|
+| ![Principal](Images/screenshot1.jpg) | ![Detalle](Images/screenshot2.jpg) | ![Ajustes](Images/screenshot3.jpg) | ![Dialogo](Images/screenshot4.jpg) | ![Ajustes](Images/screenshot5.jpg) |
 
-## Funcionalidades
+### Tema Oscuro
+|          Pantalla Principal          |        Pantalla de Detalle         |        Pantalla de Ajustes         |        Diálogo "Acerca de"         |          Pantall Ajustes"           |
+|:------------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:-----------------------------------:|
+| ![Principal](Images/screenshot6.jpg) | ![Detalle](Images/screenshot7.jpg) | ![Ajustes](Images/screenshot8.jpg) | ![Dialogo](Images/screenshot9.jpg) | ![Ajustes](Images/screenshot10.jpg) |
 
 ### Listado de Pikmin
 - RecyclerView con **GridLayoutManager** de 3 columnas
