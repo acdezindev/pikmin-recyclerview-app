@@ -60,7 +60,7 @@ Aplicación Android que muestra un listado de los 9 tipos de Pikmin en una cuadr
 - **SharedPreferences** - Persistencia de ajustes (tema e idioma)
 
 
-## 👨‍💻 Autor
+##  Autor
 
 **Abraham C**  
 [GitHub](https://github.com/acdezindev) | [LinkedIn](https://www.linkedin.com/in/AbrahamCdev)
