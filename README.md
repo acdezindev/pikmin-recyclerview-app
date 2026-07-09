@@ -1,12 +1,14 @@
+# 🌱 Pikmin App
 
-# Pikmin App
+Aplicación Android que muestra un listado de los 9 tipos de Pikmin en una cuadrícula,  
+Implementa un listado interactivo de Pikmin con navegación a detalle,  
+soporte multidioma y tema oscuro/claro.
 
-Aplicación Android que muestra un listado de los 9 tipos de Pikmin en una cuadrícula
-> Desarrollada en Kotlin como proyecto de portafolio.  
-> Implementa un listado interactivo de Pikmin con navegación a detalle,  
-> soporte multidioma, tema oscuro/claro y una experiencia de usuario pulida.
+> Desarrollada en Kotlin como tarea del grado de Programación Multimedia Dispositivos Móviles.
 
-##  Capturas de pantalla
+---
+
+## 📱 Capturas de pantalla
 
 ### Tema Claro
 
@@ -20,46 +22,41 @@ Aplicación Android que muestra un listado de los 9 tipos de Pikmin en una cuadr
 |:------------------------------------:|:----------------------------------:|:----------------------------------:|:----------------------------------:|:-----------------------------------:|
 | ![Principal](Images/screenshot6.jpg) | ![Detalle](Images/screenshot7.jpg) | ![Ajustes](Images/screenshot8.jpg) | ![Dialogo](Images/screenshot9.jpg) | ![Ajustes](Images/screenshot10.jpg) |
 
-### Listado de Pikmin
+## ✨ Características principales
 
+### 📋 Listado de Pikmin
 - RecyclerView con **GridLayoutManager** de 3 columnas
 - **CardView** para cada elemento con imagen y nombre
 - Toolbar personalizada con título "Pikmin"
 
-### Pantalla de detalle
-
+### 📄 Pantalla de detalle
 - Imagen grande del Pikmin seleccionado
 - Descripción y habilidades completas
 - Toolbar con botón de retroceso
 
-### Temas y estilos
-
+### 🎨 Temas y estilos
 - Estilos personalizados en `styles.xml`
 - Colores, tamaños y fuentes centralizados
 - Sin atributos de estilo en layouts XML
 
-### Menú contextual
-
+### 📱 Menú contextual
 - **"Acerca de"**: Diálogo con información de la app
 - **"Ajustes"**: Pantalla para cambiar tema claro/oscuro e idioma
 
-### Soporte multidioma
-
+### 🌍 Soporte multidioma
 - Español (`values/strings.xml`)
 - Inglés (`values-en/strings.xml`)
 
-### Mensajes al usuario
-
+### 💬 Mensajes al usuario
 - **Snackbar** al cargar la lista: "¡Bienvenidos al mundo Pikmin!"
 - **Toast** al seleccionar un Pikmin: "Se ha seleccionado el Pikmin [nombre]"
 
-### Pantalla de inicio (Splash)
+### 🚀 Pantalla de inicio (Splash)
+- Splash con logo personalizado
 
-- Splash 
-- Logo personalizado
+---
 
-
-##  Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
 - **Kotlin** - Lenguaje de programación
 - **Android SDK** - Desarrollo de la app (API 24 - 36)
@@ -69,8 +66,9 @@ Aplicación Android que muestra un listado de los 9 tipos de Pikmin en una cuadr
 - **CardView** - Tarjetas para cada Pikmin
 - **SharedPreferences** - Persistencia de ajustes (tema e idioma)
 
+---
 
-##  Sobre el proyecto
+## 📚 Sobre el proyecto
 
 Este proyecto fue desarrollado como parte de mi formación en desarrollo Android.  
 Demuestra mis habilidades en:
@@ -79,17 +77,37 @@ Demuestra mis habilidades en:
 - **UX/UI**: Material Design, temas, estilos y soporte multidioma
 - **Persistencia**: SharedPreferences para guardar preferencias de usuario
 
+### 🎯 ¿Qué he aprendido?
 
-## Instalación
+- ✅ Crear interfaces con RecyclerView y GridLayoutManager
+- ✅ Implementar modo oscuro/claro
+- ✅ Añadir soporte multidioma (Español/Inglés)
+- ✅ Gestionar preferencias con SharedPreferences
+- ✅ Diseñar con Material Design
+- ✅ Crear pantalla de Splash personalizada
+
+---
+
+## 🚀 Instalación
 
 1. Clona el repositorio
 2. Abre el proyecto en Android Studio
 3. Sincroniza Gradle y ejecuta la app
 
-##  Autor
+---
+
+## 👨‍💻 Autor
 
 **Abraham C**  
 [GitHub](https://github.com/acdezindev) | [LinkedIn](https://www.linkedin.com/in/AbrahamCdev)
 
+---
 
+## 📊 Estado del proyecto
 
+![Estado](https://img.shields.io/badge/ESTADO-FINALIZADO-brightgreen)
+![Versión](https://img.shields.io/badge/Versión-1.0.0-blue)
+![Android](https://img.shields.io/badge/Android-API%2024%2B-green)
+![Kotlin](https://img.shields.io/badge/Kotlin-2.0.21-purple)
+
+---
