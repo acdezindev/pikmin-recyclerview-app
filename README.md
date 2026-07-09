@@ -103,7 +103,7 @@ Demuestra mis habilidades en:
 
 ---
 
-## 📊 Estado del proyecto
+## 📊 Estado de la tarea de formacion académica
 
 ![Estado](https://img.shields.io/badge/ESTADO-FINALIZADO-brightgreen)
 ![Versión](https://img.shields.io/badge/Versión-1.0.0-blue)
